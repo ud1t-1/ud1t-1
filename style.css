@@ -1,0 +1,77 @@
+body{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none; 
+    /* padding-left: 40px ;  instead of padding we should use max 
+    width n margin */
+    
+    padding-top: 10px;
+    line-height: 2.5em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhPxRgtVJjIw41kw7h0H3fJBXrgEKFrAO21OWnAoMs4h0WooxonGU4xQscCpQdot0feM&usqp=CAU);
+
+}
+.content{
+          max-width: 800px;
+          font-weight: 600;
+          margin: auto ;
+          padding: 10px;
+          padding-bottom: 10px;
+          line-height: 2.5em;
+
+
+}
+#img{
+  
+  border:5px solid #31393a;
+}
+         
+button:hover{
+  color: rgb(219, 33, 0);
+  background-color: rgb(46, 236, 29) ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(106, 109, 119);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  max-width: 800px;
+  font-weight: 600;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: black;
+   background-color: rgb(107, 107, 121);
+  text-decoration: none ;
+ } 
+#nav{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+  
+ 
+
+
